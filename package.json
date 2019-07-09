@@ -1,0 +1,22 @@
+{
+  "name": "on-updated-emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npx tape dist/tests/**/*.js | tap-spec",
+    "build-checksum": "tar -cf /tmp/build_object-on-updated.tar . && sha256sum /tmp/build_object-on-updated.tar"
+  },
+  "author": "",
+  "license": "ISC",
+  "prepublish": "tsc",
+  "dependencies": {
+    "tape": "^4.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.1",
+    "@types/tape": "^4.2.33",
+    "typescript": "^3.5.3"
+  }
+}
