@@ -10,12 +10,11 @@
   "author": "",
   "license": "ISC",
   "prepublish": "tsc",
-  "dependencies": {
-    "tape": "^4.10.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^12.6.1",
     "@types/tape": "^4.2.33",
+    "tape": "^4.11.0",
     "typescript": "^3.5.3"
   }
 }
