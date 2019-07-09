@@ -49,7 +49,7 @@ export abstract class OnUpdatedEmitter extends EventEmitter {
         return this.currentValue;
     }
 
-    static get EVENT_UPDATED(): string {
+    private static get EVENT_UPDATED(): string {
         return 'event_updated'; 
     }
 }
