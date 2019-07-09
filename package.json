@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npx tape dist/tests/**/*.js | tap-spec",
-    "build-checksum": "tar -cf /tmp/build_object-on-updated.tar . && sha256sum /tmp/build_object-on-updated.tar"
+    "test": "npx tape dist/tests/**/*.js | tap-spec"
   },
   "author": "",
   "license": "ISC",
